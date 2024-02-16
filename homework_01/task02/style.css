@@ -1,0 +1,33 @@
+.info {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.info th {
+    background-color: antiquewhite;
+    color: brown;
+    text-align: left;
+    /* почему пришлось выравнивать только заголовки, а содержимое уже было выровнено по левой стороне */
+}
+
+.info th,
+.info td {
+    padding: 8px;
+}
+
+
+.container {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+}
+
+.row img {
+    width: 50%;
+    height: auto;
+    display: block;
+}
